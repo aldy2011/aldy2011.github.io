@@ -65,8 +65,8 @@ if (document.title === 'Form Klub Bola') {
     }
 
     localStorage.setItem('clubs', JSON.stringify(clubs));
-    window.location.href = 'main.html';
+    window.location.href = 'index.html';
   });
 
-  window.cancelForm = () => window.location.href = 'main.html';
+  window.cancelForm = () => window.location.href = 'index.html';
 }
